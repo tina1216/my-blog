@@ -26,8 +26,8 @@ const Articles = ({articles}) => {
             <Paginations
             articlesPerPage={articlesPerPage}
             totalArticles={articles.length}
-            paginate={paginate}
-            ></Paginations>
+            paginate={paginate}>
+            </Paginations>
         </Container> 
     )
 }
