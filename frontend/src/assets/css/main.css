@@ -1,0 +1,204 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+}
+  
+
+/* ------------------------------------------------------ */
+p {
+    font-family: medium-content-serif-font, Georgia, 
+    Cambria, "Times New Roman", Times, serif !important;
+    font-size: 21px;
+    letter-spacing: 0.04rem;
+    line-height: 1.58;
+    margin-top: 50px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family:medium-content-title-font, Georgia, 
+    Cambria, "Times New Roman", Times, serif !important;
+    font-size: 3rem !important;
+    color: #262626;
+    margin-top: 0.78em;
+}
+
+
+.card-title {
+    letter-spacing: 0.4px !important;
+    line-height: 1.13636 !important;
+    margin-top: 0.75rem;
+  }
+  
+  #editor {
+    font-size: 1rem !important;
+    line-height: 1.75 !important;
+  }
+
+ /* card-------------------------------------- */
+.card-item {
+    padding: 8px;
+}
+
+.card-img-top {
+    background-size: cover;
+    background-position: center center;
+    height: 150px !important;
+
+}
+
+.card-design {
+    border: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+.card-design:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+/* article------------------------------------------ */
+.article-container {
+    margin-top: 50px;
+    max-width: 680px;
+}
+
+.article-title-items {
+    margin-top: 0.78em;
+}
+.article-date {
+    margin-top: 24px;
+}
+
+.article-content {
+    margin-top: 2em;
+}
+
+.article-border {
+    margin: 50px 0;
+    border-top: 1px solid #727272;
+    opacity: 0.4;
+}
+
+.article-btn {
+    margin: 50px 0;
+}
+
+/* Nav----------------------------- */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* fonts------------------------------ */
+.txt-basic {
+    color: white;
+}
