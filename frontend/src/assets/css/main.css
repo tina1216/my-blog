@@ -186,7 +186,11 @@ h1 {
 .article-border {
     margin: 50px 0;
     border-top: 1px solid #727272;
-    opacity: 0.4;
+}
+
+.relared-container {
+    display: flex;
+    width: inherit;
 }
 
 .article-btn {

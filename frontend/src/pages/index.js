@@ -17,6 +17,7 @@ const IndexPage = () => (
               node {
                 strapiId
                 title
+                published_at
                 category {
                   name
                 }

@@ -4,13 +4,13 @@ import Paginations from "./pagination"
 import {Row, Container} from "react-bootstrap"
 
 const Articles = ({articles}) => {
-    articles = articles.reverse()
+    const orderedArticle = articles.sort((a, b) => b.node.strapiId - a.node.strapiId)
     const [currPage, setCurrPage] = useState(1);
-    const [articlesPerPage] = useState(2);
+    const [articlesPerPage] = useState(3);
 
     const indexOfLastArticle = currPage * articlesPerPage;
     const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
-    const currArticles = articles.slice(indexOfFirstArticle, indexOfLastArticle)
+    const currArticles = orderedArticle.slice(indexOfFirstArticle, indexOfLastArticle)
 
     const paginate = (p) => setCurrPage(p);
 

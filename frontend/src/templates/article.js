@@ -2,10 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import Moment from "react-moment"
-import Layout from "../components/layout"
 import Img from "gatsby-image"
 import {Container, Button} from "react-bootstrap"
 import {Link} from "gatsby"
+
+import Layout from "../components/layout"
+import Related from "../components/related"
 
 //image {publicURL}
 export const query = graphql`
@@ -56,11 +58,14 @@ const Article = ({data}) => {
                     }} />
                 </div>
 
-                <div className="article-border">
+                <div className="article-border"></div>
+
+                <Related rawArticle={article}></Related>
+
                 <Link to="/">
                     <Button className="article-btn" variant="outline-dark" size="lg" block>BACK</Button>
                 </Link>
-                </div>
+                
 
             </Container>
             
