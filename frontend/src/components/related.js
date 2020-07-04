@@ -29,8 +29,6 @@ export const Related = ({rawArticle}) => (
     render = {data => {
         const relatedArticles = data.allStrapiArticle.edges
         const shuffled = relatedArticles.sort(() => 0.5 - Math.random());
-        // article = article.slice(0, 3);
-
 
     return (
             <div className="relared-container">
